@@ -10,7 +10,7 @@ input {
 }
 
 .slider-section {
-    padding: 40px;
+    padding: 2rem;
     width: 100%;
     height: 100vh;
     background: #000;
@@ -85,18 +85,18 @@ input {
     display: flex;
     justify-content: flex-end;
     align-items: start;
-    gap: 10px;
+    gap: 0.5rem;
 }
 .slide-ctrl {
-    padding: 10px;
+    padding: 0.5rem;
     border-radius: 50%;
     cursor: pointer;
 }
 .slide-ctrl span {
     display: flex;
     background-color: #71abff;
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     border: 3px solid #71abff;
     border-radius: 50%;
 }
@@ -135,7 +135,6 @@ input {
 
   @media all and (max-width: 768px) {
     .slider-wrapper {
-        
         grid-template-columns: 1fr;
         grid-template-rows: 10fr 1fr 3fr ;
         row-gap: 5%;
